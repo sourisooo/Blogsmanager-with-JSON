@@ -45,8 +45,6 @@ export default useFetch;
 //La fonction usefetch vise à retourner un objet contenant les attributs (data, is pending et error), 
 //attributs qui seront par la suite utilisée par plusieurs onglets de code pour manipuler et afficher ces 
 // attributs, dont particulièrement l'attribut data, dans des templates HTML.
-//La méthode prend pour entreée les memes variables que celles à retourner et en leur
-//appliquant l'outil useState.
 //L'outil react Useeffet est utilisé pour réaliser des action spécifiques sous conditions. Ici, à chaque
 //fois qu'un url est accédé, Useeffet est activé. Useeffect, lorsqu'il est activé, réalise une fonction
 // qui retourne plusieurs résultats selon différents scénarios prévus par la programmation. D'abord, elle récupère

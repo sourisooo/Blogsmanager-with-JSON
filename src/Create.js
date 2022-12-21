@@ -53,11 +53,9 @@ const Create = () => {
 export default Create;
 
 //Commentaires
-//Fonction retournant un formulaire web rempli de donnée. Cette fonction est alimentée avec les variables 
-//nouvellement crées titres, body et authors surlesquels la faculté useState est utilisée. 
-//Dispose d'un bouton pour soumettre le code, cette
-//soumission se fait par la fonction handleSubmit qui prend pour entrée un blog
-//puis l'incorpore dans la base JSON à traver la méthode JSON "POST".
+//Fonction retournant un formulaire web rempli de données. Cette fonction crée puis utilise des variables 
+//titres, body et authors surlesquels la faculté useState est utilisée, ces variables étant conçues pour recevoir les données
+//issus des formulaires/template HTML. 
 //Fonctionnement de la fonction create
 // 3 variables vont etre crées et disposer de la fonctionnalités UseState, elle vont etre associés au données
 // qui seront saisi dans le template HTML et dont nous souhaitons retourner dans la base de donnée JSON.
@@ -65,4 +63,4 @@ export default Create;
 //La fonction create va retourner le template HTML remplis de données à traver la fonctionnalité onchange et 
 // setAuthor(e.target.value) puis l'application de la fonction handlesubmit.
 //La fonction handlesubmit va incrémenter la bdd JSON à travers les variables title, body, author qui ont 
-//été récupérer par la fonction create.
+//été récupérer des templates HTML par la fonction create.
